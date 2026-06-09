@@ -24,11 +24,11 @@ Proje, ders kapsamında belirtilen tüm isterleri ve güvenlik standartlarını 
 * Resmi PHP dökümantasyon standartlarına (`session_start()`, `$_SESSION`) uygun bir oturum kontrol mekanizması inşa edilmiştir.
 * Giriş yapmamış kullanıcıların panel sayfalarına ve CRUD fonksiyonlarına erişimi engellenerek yetkisiz erişimlerin önüne geçilmiştir (`cikis.php` ile güvenli session sonlandırma yapılmıştır).
 
-### 3. 🆕 Kolektif Botanik Kütüphanesi & Gelişmiş SQL (JOIN)
+### 3. Kolektif Botanik Kütüphanesi & Gelişmiş SQL (JOIN)
 * Projeye eklenen son özellikle birlikte, sisteme giriş yapan tüm kullanıcılar sadece kendi bitkilerini değil, **diğer tüm kullanıcıların eklediği bitkileri de görebileceği** ortak bir kütüphane sayfasına (`tum_bitkiler.php`) erişebilmektedir.
 * Arka planda **`SQL JOIN`** mimarisi kullanılarak `bitkiler` tablosu ile `kullanicilar` tablosu ilişkilendirilmiş, bitki verileri çekilirken o bitkiyi sisteme kaydeden kullanıcının isim-soyisim bilgisi de dinamik olarak ekrana yansıtılmıştır.
 
-### 4. 🆕 Bootstrap Modal (Açılır Detay Penceresi) Entegrasyonu
+### 4. Bootstrap Modal (Açılır Detay Penceresi) Entegrasyonu
 * Ortak kütüphane sayfasındaki bitki kartlarına tıklandığında, sayfa yenilenmeden dinamik olarak tetiklenen **Bootstrap Modal** (Açılır Pencere) yapısı kurulmuştur.
 * Kullanıcılar bir bitkiye tıkladığında ilgili bitkinin detaylı bakım notları, familyası ve ekleyen kişi bilgisi şık bir uzatma penceresi içerisinde kullanıcıya sunulmaktadır.
 
