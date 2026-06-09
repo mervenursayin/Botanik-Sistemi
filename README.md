@@ -37,6 +37,9 @@ Proje, ders kapsamında belirtilen tüm isterleri ve güvenlik standartlarını 
 * `bitkiler` tablosundaki `kullanici_id` alanı, `kullanicilar` tablosundaki `id` alanına **FOREIGN KEY** ile bağlanmıştır.
 * Veri bütünlüğünü korumak adına **`ON DELETE CASCADE`** kuralı işletilmiştir; böylece bir kullanıcı hesabı silindiğinde, o kullanıcıya ait tüm bitki kayıtları otomatik olarak temizlenir.
 
+### 6. Sitemi tanıttığım videomun linki
+* https://youtu.be/0SyRVSX5G2Y 
+
 ---
 
 ## 📂 Klasör Yapısı
