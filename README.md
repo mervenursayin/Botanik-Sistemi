@@ -56,7 +56,7 @@ botanik_sistemi/
 │   └── footer.php            # Ortak alt bilgi alanı
 │
 ├── tum_bitki/
-│   ├── tum_bitkiler.php      # 🆕 Global kütüphane ve Modal detay listeleme ekranı
+│   ├── tum_bitkiler.php      # Global kütüphane ve Modal detay listeleme ekranı
 │
 ├── index.php                 # Kullanıcı Giriş (Login) ekranı
 ├── kayit.php                 # Kullanıcı Kayıt (Register) ekranı
